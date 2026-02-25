@@ -21,13 +21,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const spotsLeft = details.max_participants - details.participants.length;
 
-        // build list of participants with unregister buttons
+        // build list of participants with unregister icons
         let participantsHtml = "<p>No participants yet.</p>";
         if (details.participants.length > 0) {
           participantsHtml = `<ul>${details.participants
             .map(
               (email) =>
-                `<li>${email} <button data-activity="${name}" data-email="${email}" class="unregister-btn">Unregister</button></li>`
+                `<li>${email} <button data-activity="${name}" data-email="${email}" class="unregister-btn" title="Unregister">✖</button></li>`
             )
             .join("")}</ul>`;
         }

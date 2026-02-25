@@ -112,6 +112,13 @@ button:hover {
 .activity-card .participants ul {
   margin-top: 5px;
   padding-left: 20px;
+  list-style: none; /* hide bullet points */
+}
+
+.activity-card .participants ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .unregister-btn {

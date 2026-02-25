@@ -25,6 +25,7 @@ def test_get_activities():
     assert "Chess Club" in data
     assert "Programming Class" in data
     assert "Gym Class" in data
+    assert "Art Club" in data
 
 
 def test_signup_success():

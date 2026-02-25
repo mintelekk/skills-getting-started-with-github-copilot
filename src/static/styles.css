@@ -108,6 +108,22 @@ button:hover {
   background-color: #3949ab;
 }
 
+/* participant list inside activity cards */
+.activity-card .participants ul {
+  margin-top: 5px;
+  padding-left: 20px;
+}
+
+.unregister-btn {
+  background-color: #c62828;
+  font-size: 0.9em;
+  padding: 4px 8px;
+}
+
+.unregister-btn:hover {
+  background-color: #e53935;
+}
+
 .message {
   margin-top: 20px;
   padding: 10px;

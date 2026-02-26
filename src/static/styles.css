@@ -108,7 +108,11 @@ button:hover {
   background-color: #3949ab;
 }
 
-/* participant list inside activity cards */
+/*
+  Participant list styling
+  - removes default bullets for a cleaner card layout
+  - aligns participant rows so the email and delete icon are separated
+*/
 .activity-card .participants ul {
   margin-top: 5px;
   padding-left: 20px;
@@ -122,9 +126,11 @@ button:hover {
 }
 
 .unregister-btn {
+  /* small red button used as a remove/delete icon for participants */
   background-color: #c62828;
   font-size: 0.9em;
   padding: 4px 8px;
+  border-radius: 4px;
 }
 
 .unregister-btn:hover {
